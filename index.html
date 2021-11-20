@@ -5,8 +5,13 @@
     <script src="node_modules/es6-module-loader/dist/es6-module-loader-dev.js"></script>
   </head>
   <body>
-      <script>
-          System.import('src/functions.js');
-      </script> 
+    <style>
+      body {
+        background-color: hsl(240, 25%, 10%);
+      }
+    </style>
+    <script>
+      System.import("src/mapFilterReduce.js")
+    </script>
   </body>
 </html>
